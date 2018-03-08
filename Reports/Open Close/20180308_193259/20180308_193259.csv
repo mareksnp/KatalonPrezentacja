@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Open Close,Chrome 65.0.3325.146,,2018-03-08 19:33:01,2018-03-08 19:33:06,"4,994s",PASSED
+,,,,,,
+Test Cases/Main Test Cases/OpenClose,Chrome 65.0.3325.146,,2018-03-08 19:33:01,2018-03-08 19:33:06,"4,569s",PASSED
+openBrowser,Chrome 65.0.3325.146,,2018-03-08 19:33:01,2018-03-08 19:33:04,"3,139s",PASSED
+closeBrowser,Chrome 65.0.3325.146,,2018-03-08 19:33:04,2018-03-08 19:33:06,"1,093s",PASSED

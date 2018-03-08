@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Open Close,,,2018-03-08 19:26:49,2018-03-08 19:26:50,"0,892s",ERROR
+,,,,,,
+Test Cases/Main Test Cases/OpenClose,,,2018-03-08 19:26:49,2018-03-08 19:26:50,"0,436s",ERROR
+openBrowser,,,2018-03-08 19:26:50,2018-03-08 19:26:50,"0,028s",PASSED

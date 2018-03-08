@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 65.0.3325.146,,2018-03-08 19:10:49,2018-03-08 19:10:58,"8,901s",PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 65.0.3325.146,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2018-03-08 19:10:50,2018-03-08 19:10:58,"8,444s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-08 19:10:50,2018-03-08 19:10:50,"0,053s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-08 19:10:50,2018-03-08 19:10:50,"0,001s",PASSED
+openBrowser,Chrome 65.0.3325.146,,2018-03-08 19:10:50,2018-03-08 19:10:56,"5,251s",PASSED
+click,Chrome 65.0.3325.146,,2018-03-08 19:10:56,2018-03-08 19:10:56,"0,404s",PASSED
+setText,Chrome 65.0.3325.146,,2018-03-08 19:10:56,2018-03-08 19:10:56,"0,224s",PASSED
+setText,Chrome 65.0.3325.146,,2018-03-08 19:10:56,2018-03-08 19:10:57,"0,221s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-08 19:10:57,2018-03-08 19:10:57,"0,001s",PASSED
+click,Chrome 65.0.3325.146,,2018-03-08 19:10:57,2018-03-08 19:10:57,"0,546s",PASSED
+comment,Chrome 65.0.3325.146,,2018-03-08 19:10:57,2018-03-08 19:10:57,"0,001s",PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 65.0.3325.146,,2018-03-08 19:10:57,2018-03-08 19:10:57,"0,064s",PASSED
+closeBrowser,Chrome 65.0.3325.146,,2018-03-08 19:10:57,2018-03-08 19:10:58,"1,202s",PASSED

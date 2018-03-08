@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="8" timestamp="2018-03-08 19:10:49" hostname="bulinskim - CKHDHM2.gbcc.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Studio\\Sample Project Test\\Reports\\New Test Suite\\20180308_191047"/>
+         <property name="logFiles" value="C:\\Katalon Studio\\Sample Project Test\\Reports\\New Test Suite\\20180308_191047\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bulinskim - CKHDHM2.gbcc.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.146"/>
+         <property name="hostAddress" value="10.95.120.40"/>
+         <property name="sessionId" value="693d2e90686ec94921a09beca9fa9149"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2018-03-08 19:10:50 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2018-03-08 19:10:50 - [TEST_STEP][PASSED] - comment: Story: Login to CURA system
+
+2018-03-08 19:10:50 - [TEST_STEP][PASSED] - comment: Given that the user has the valid login information
+
+2018-03-08 19:10:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2018-03-08 19:10:56 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2018-03-08 19:10:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2018-03-08 19:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2018-03-08 19:10:56 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2018-03-08 19:10:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2018-03-08 19:10:56 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2018-03-08 19:10:57 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2018-03-08 19:10:57 - [TEST_STEP][PASSED] - comment: When he logins to CURA system
+
+2018-03-08 19:10:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2018-03-08 19:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2018-03-08 19:10:57 - [TEST_STEP][PASSED] - comment: Then he should be able to login successfully
+
+2018-03-08 19:10:57 - [TEST_STEP][PASSED] - Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2018-03-08 19:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2018-03-08 19:10:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-08 19:10:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-08 19:10:49 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Main Test Cases/TC1_Verify Successful Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

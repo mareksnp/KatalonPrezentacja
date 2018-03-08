@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Open Close" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="Open Close" tests="1" failures="0" errors="0" time="4" timestamp="2018-03-08 19:33:01" hostname="bulinskim - CKHDHM2.gbcc.local" id="Test Suites/Open Close">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Studio\\Sample Project Test\\Reports\\Open Close\\20180308_193259"/>
+         <property name="logFiles" value="C:\\Katalon Studio\\Sample Project Test\\Reports\\Open Close\\20180308_193259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bulinskim - CKHDHM2.gbcc.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.146"/>
+         <property name="hostAddress" value="10.95.120.40"/>
+         <property name="sessionId" value="dafb4ed962b04ff8525d4792145d9f17"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/OpenClose" classname="Test Cases/Main Test Cases/OpenClose" status="PASSED">
+         <system-out><![CDATA[2018-03-08 19:33:01 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/OpenClose: Test Cases/Main Test Cases/OpenClose
+
+2018-03-08 19:33:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-08 19:33:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-08 19:33:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-08 19:33:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-08 19:33:01 - [TEST_SUITE][PASSED] - Open Close: Test Cases/Main Test Cases/OpenClose]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
